@@ -8,3 +8,12 @@
 """
 
 
+def main():
+    print("welcome to basics")
+
+
+
+
+
+if __name__ == "__main__":
+    main()
