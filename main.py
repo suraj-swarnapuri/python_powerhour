@@ -8,7 +8,14 @@ encapsulation
 error handling
 """
 
-toyoda = models.Car("toyoda")
-model3 = models.SportsCar("model3")
-toyoda.go()
-print(toyoda.getPos())
+def main():
+    print("hello world")
+
+
+
+
+
+
+
+if __name__ == "__main__":
+    main()
