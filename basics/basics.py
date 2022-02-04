@@ -36,11 +36,23 @@ def main():
     for i in range(0,10,2):
         print(i)
     
-    for strin in ["a","b","c"]:
-        print(strin)
+    for valStr in ["a","b","c"]:
+        print(valStr)
+    mat = [
+        [1,2],
+        [3,4]
+        ]  
     # iterating through a dictionary
     for k,v in g.items():
         print(k , v)
+
+    # exceptions
+    try:
+        open("test.txt")
+    except ZeroDivisionError as e:
+        print("divide by zero dont do that")
+    except Exception as e:
+        print(e)
 
 if __name__ == "__main__":
     main()
